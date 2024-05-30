@@ -1,0 +1,31 @@
+PODS:
+  - CTM_LFVideoPlayer (0.1.0):
+    - CTMediator
+  - CTMediator (48)
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+
+DEPENDENCIES:
+  - CTM_LFVideoPlayer (from `../`)
+  - FBSnapshotTestCase (~> 2.1.4)
+
+SPEC REPOS:
+  trunk:
+    - CTMediator
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  CTM_LFVideoPlayer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CTM_LFVideoPlayer: f27bcd3cab9f7c95d4ce0c89fc90d0d4d75bd5b0
+  CTMediator: 3f3578b525b3a46a7a2f92a99922ec40363f4269
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+
+PODFILE CHECKSUM: 3ac1f6d5d66b183b5876b0322cbd6ce53e8b9930
+
+COCOAPODS: 1.13.0

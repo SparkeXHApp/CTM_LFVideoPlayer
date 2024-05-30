@@ -1,0 +1,6 @@
+framework module CTM_LFVideoPlayer {
+  umbrella header "CTM_LFVideoPlayer-umbrella.h"
+
+  export *
+  module * { export * }
+}

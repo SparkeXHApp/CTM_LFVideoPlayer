@@ -1,0 +1,6 @@
+framework module Pods_CTM_LFVideoPlayer_Example {
+  umbrella header "Pods-CTM_LFVideoPlayer_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

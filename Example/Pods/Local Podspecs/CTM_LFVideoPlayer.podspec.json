@@ -1,0 +1,27 @@
+{
+  "name": "CTM_LFVideoPlayer",
+  "version": "0.1.0",
+  "summary": "A short description of CTM_LFVideoPlayer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/SparkeXHApp/CTM_LFVideoPlayer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "SparkeXHApp": "sfhery@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/SparkeXHApp/CTM_LFVideoPlayer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CTM_LFVideoPlayer/Classes/**/*",
+  "dependencies": {
+    "CTMediator": [
+
+    ]
+  }
+}
