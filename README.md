@@ -17,7 +17,7 @@ CTM_LFVideoPlayer is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'CTM_LFVideoPlayer'
+pod 'CTM_LFVideoPlayer', :git => 'https://github.com/SparkeXHApp/CTM_LFVideoPlayer.git'
 ```
 
 ## Author

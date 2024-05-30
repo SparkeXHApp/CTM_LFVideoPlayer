@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		4A5DCD86DEF05A64D970978A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		4A5DCD86DEF05A64D970978A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4FD343BC1737421ACCED6188 /* Pods-CTM_LFVideoPlayer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTM_LFVideoPlayer_Example.release.xcconfig"; path = "Target Support Files/Pods-CTM_LFVideoPlayer_Example/Pods-CTM_LFVideoPlayer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* CTM_LFVideoPlayer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CTM_LFVideoPlayer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -42,10 +42,10 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6E274005D29CC58F7979673F /* Pods_CTM_LFVideoPlayer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTM_LFVideoPlayer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C3FD322DC441E67E5DF3BA5 /* Pods-CTM_LFVideoPlayer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTM_LFVideoPlayer_Example.debug.xcconfig"; path = "Target Support Files/Pods-CTM_LFVideoPlayer_Example/Pods-CTM_LFVideoPlayer_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9E7002EDB4B90A9766D17502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9E7002EDB4B90A9766D17502 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		B2E8AC35B81143CE9F7F401F /* Pods_CTM_LFVideoPlayer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CTM_LFVideoPlayer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B915495F98105AB31A694657 /* Pods-CTM_LFVideoPlayer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTM_LFVideoPlayer_Tests.release.xcconfig"; path = "Target Support Files/Pods-CTM_LFVideoPlayer_Tests/Pods-CTM_LFVideoPlayer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B9C210800B90C1DC89B1103A /* CTM_LFVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CTM_LFVideoPlayer.podspec; path = ../CTM_LFVideoPlayer.podspec; sourceTree = "<group>"; };
+		B9C210800B90C1DC89B1103A /* CTM_LFVideoPlayer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CTM_LFVideoPlayer.podspec; path = ../CTM_LFVideoPlayer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA87CB6328A0D3068A4EF32B /* Pods-CTM_LFVideoPlayer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CTM_LFVideoPlayer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CTM_LFVideoPlayer_Tests/Pods-CTM_LFVideoPlayer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				FA87CB6328A0D3068A4EF32B /* Pods-CTM_LFVideoPlayer_Tests.debug.xcconfig */,
 				B915495F98105AB31A694657 /* Pods-CTM_LFVideoPlayer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -228,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
